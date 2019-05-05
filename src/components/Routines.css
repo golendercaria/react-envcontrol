@@ -1,0 +1,15 @@
+.wrapperRoutine{
+	padding: 20px 5%;
+	text-align: left;
+}
+.wrapperRoutine button{
+	background-image: linear-gradient(to right bottom, #004d7a, #00bf72);
+	/*width: 50px;*/
+	height: 50px;
+	border-radius: 10px;
+	display: inline-block;
+	border: 0;
+	color: white;
+	margin-right: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}

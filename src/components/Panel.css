@@ -1,0 +1,41 @@
+.wrapperPanel{
+	position: relative;
+	background: white;
+	border-radius: 25px;
+	width: 90%;
+	margin: 0 auto;	
+	box-shadow: 0 5px 10px 0px rgba(0,0,0,0.1);
+}
+.wrapperPanel{
+
+}
+.wrapperPanel > div{ 
+	width: 50%;
+	float: left;
+	padding: 15px;
+}
+.wrapperPanel > div:first-child:before{
+	content: " ";
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	height: 0;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+}
+.wrapperPanel > div:first-child:after{
+	content: " ";
+	border-right: 1px solid rgba(0,0,0,0.05);
+	height: 100%;
+	width: 0;
+	position: absolute;
+	left: 50%;
+	top: 0;
+}
+.wrapperPanel > div strong{
+	display: block;
+	color: purple;
+}
+.wrapperPanel > div span{
+	color: rgba(0,0,0,0.3);
+}

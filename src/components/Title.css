@@ -1,0 +1,37 @@
+.wrapperTitle{
+	position: relative;
+	padding: 10px 5%;
+}
+.wrapperTitle:before{
+	background-image: linear-gradient(to right bottom, #004d7a, #00bf72);
+	content: " ";
+	height: 300%;
+	width: 200%;
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -100%;
+	border-radius: 50%;
+	transform: translateX(-50%);
+}
+.wrapperTitle > div{
+	position: relative;
+}
+
+.who{
+	float: left;
+	line-height: 50px;
+	font-weight: bold;
+	color: white;
+}
+.picture{
+	line-height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-size: cover !important;
+	background-position: center center;
+	float: right;
+}
